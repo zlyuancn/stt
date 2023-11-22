@@ -1,12 +1,25 @@
 构建分表sql文件的工具
 
+---
+
+<!-- TOC -->
+
+- [背景](#%E8%83%8C%E6%99%AF)
+- [安装](#%E5%AE%89%E8%A3%85)
+- [创建分表](#%E5%88%9B%E5%BB%BA%E5%88%86%E8%A1%A8)
+- [创建变更](#%E5%88%9B%E5%BB%BA%E5%8F%98%E6%9B%B4)
+- [命令说明](#%E5%91%BD%E4%BB%A4%E8%AF%B4%E6%98%8E)
+
+<!-- /TOC -->
+---
+
 # 背景
 
 在业务中经常涉及到分表的创建和表变更, 每次都要写个脚本来生成sql语句, 这个工具能让使用者无需写脚本, 即可快速创建分表或表变更的sql文件.
 
 # 安装
 
-`go install github.com/zlyuancn/stt/stf@latest`
+`go install github.com/zlyuancn/stt/stf@master`
 
 # 创建分表
 
